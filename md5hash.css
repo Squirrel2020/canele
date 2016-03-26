@@ -40,7 +40,7 @@ body.res-nightmode #header .tabmenu li:not(.selected) a { color: #346; }
 body.res-nightmode #header .tabmenu li { background-color: #DDD !important; }
 body.res-nightmode #header .tabmenu li:not(.selected):hover a { background-color: #CCC; color: #444; }
 #header-img { margin:8px 20px 0; }
-.pagename { margin-right:25px; font-weight:bold; font-variant:normal; font-size:18px; }
+.pagename { margin-right:25px; font-weight:bold; /*font-variant:normal;*/ font-size:18px; }
 body.res-nightmode .pagename a { font-size: 18px !important; }
 #sr-header-area .dropdown.srdrop, #sr-header-area#srLeftContainer { padding-left:21px; }
 #sr-more-link, #header #sr-header-area #RESShortcutsEditContainer, #header #sr-header-area #RESShortcutsRight, #header #sr-header-area #RESShortcutsLeft, 
@@ -159,12 +159,12 @@ body.res-nightmode .sidebox.submit:hover { background-color: #444 !important; }
 body.res-nightmode .sidebox.submit:hover .nub { border-left-color: #444; }
 
 .morelink,.morelink:hover,.side a[href*='/#btn'] {
-    font-weight:normal;
+ /*   font-weight:normal;*/
     letter-spacing:0;
     background:#449EF8;
     border: none;
     -moz-border-radius:2px;
-    -webkit-border-radius:2px;
+    -webkit-border-radius:12px;
     -o-border-radius:2px;
     -ms-border-radius:2px;
     -khtml-border-radius:2px;
@@ -197,7 +197,7 @@ body.res-nightmode .sidebox.submit:hover .nub { border-left-color: #444; }
 /* CONTENT */
 
 /* main content */
-.sitetable { font-family:Franklin Gothic Medium; font-size:40px; clear:left;}
+.sitetable { font-family:Franklin Gothic Medium; font-weight:bold; font-size:12px; clear:left;}
 .infobar { overflow:hidden; margin:0 0 10px; }
 .content { margin:20px 0 0 20px; }
 
@@ -247,7 +247,7 @@ body.res-nightmode .usertext .help-toggle { background-color:#DDD; }
 body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
 .usertext table.markhelp { width:450px; font-size:11px; }
 .link .usertext .md { background-color:#FFF; border:1px solid #EAEAEA; }
-.entry .buttons li a { font-family:verdana, arial, sans-serif; }
+.entry .buttons li a { font-family:Franklin Gothic Medium; }
 
 .usertext .help-toggle {
     background-color:#999;
@@ -426,7 +426,7 @@ body.res-nightmode .md h6 + ul li:nth-child(odd), body.res-nightmode .md h6 + ol
     text-align: center;
     display: block;
     width: auto;
-    font-weight: normal;
+/*    font-weight: normal; */
     letter-spacing: 0;
     line-height: 29px;
     margin:10px 0px;
