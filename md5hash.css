@@ -174,7 +174,7 @@ body.res-nightmode .sidebox.submit:hover .nub { border-left-color: #444; }
     overflow: hidden;
 }
 
-.morelink a,.morelink a:hover { color:#FFF; font-family:Verdana, Arial, sans-serif; font-size:16px; }
+.morelink a,.morelink a:hover { color:#FFF; font-family:corbel; font-size:18px; }
 .morelink .nub,.morelink:hover .nub {
     top: 0;
     right: -25px;
@@ -197,7 +197,7 @@ body.res-nightmode .sidebox.submit:hover .nub { border-left-color: #444; }
 /* CONTENT */
 
 /* main content */
-.sitetable { font-family:verdana, arial, helvetica, sans-serif; clear:left;}
+.sitetable { font-family:Franklin Gothic Medium; font-size:40px; clear:left;}
 .infobar { overflow:hidden; margin:0 0 10px; }
 .content { margin:20px 0 0 20px; }
 
